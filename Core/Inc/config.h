@@ -43,8 +43,8 @@
 #define BRAKEMAX 190
 
 // parameters for speed calculation
-#define WHEEL_CIRCUMFERENCE 550 //690 for original M365 motor
-#define GEAR_RATIO 8 //15 for original M365 motor
+#define WHEEL_CIRCUMFERENCE 690 //690 for original M365 motor
+#define GEAR_RATIO 15 //15 for original M365 motor
 
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 6
@@ -76,7 +76,7 @@
 
 // settings for speed PLL (angle estimation)
 #define SPEED_PLL 1 //1 for using PLL, 0 for angle extrapolation
-#define P_FACTOR_PLL 10 //7 for original M365 motor
-#define I_FACTOR_PLL 10 //7 for original M365 motor
+#define P_FACTOR_PLL 7 //7 for original M365 motor
+#define I_FACTOR_PLL 7 //7 for original M365 motor
 
 #endif /* CONFIG_H_ */
